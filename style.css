@@ -668,17 +668,16 @@ button {
 }
 
 
-
-/* Ajustes específicos para la sección de Marketing de Contenidos */
-#marketing .cta__content {
-    border: 3px solid var(--color-primario); /* Borde con el color principal */
-    border-radius: 10px;
-    padding: 2rem; /* Ajuste de padding para mantener espacio alrededor del contenido */
+.marketing-title {
+    background-color: var(--color-primario);
+    color: black; 
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 0; 
 }
 
-#marketing .title {
-    margin-top: -20px; /* Ajusta el valor para mover el título hacia arriba */
-    border-bottom: 2px solid var(--color-primario); /* Opcional: Añadir una línea debajo del título */
-    display: inline-block;
-    padding-bottom: 10px;
+.cta__texts {
+    text-align: center;
+    margin-top: -20px;
 }
+
