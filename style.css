@@ -85,6 +85,7 @@ button {
 }
 
 .nav__link--cta{
+    background-color: var(--color-primario);
     border: 1px solid black;
     border-radius: 10px;
     padding-left: 1.8rem;
@@ -92,8 +93,8 @@ button {
 }
 
 .nav__link--cta:hover {
-    background-color: var(--color-primario);
-    color: white;
+    background-color: white;
+    color: var(--color-primario);
 }
 
 .nav__link:hover{
@@ -177,6 +178,11 @@ button {
     border-radius: 1.5rem;
     border: 1px solid black;
     border-bottom-width: 3px;
+}
+
+.services__article:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
 }
 
 .bggray {
@@ -371,6 +377,12 @@ button {
     padding: 1rem;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
+}
+
+.contact__submit:hover {
+    background-color: var(--color-primario);
+    color: black;
 }
 
 /*Footer*/
@@ -452,6 +464,12 @@ button {
     border: none;
     border-radius: 6px;
     font-weight: 500;
+    cursor: pointer;
+}
+
+.footer__submit:hover {
+    background-color: white;
+    color: var(--color-primario);
 }
 
 .footer__social{
@@ -470,6 +488,12 @@ button {
     justify-content: center;
 }
 
+.footer__social-links:hover {
+    transform: scale(1.20);
+    transition: transform 0.3s ease;
+    background-color: var(--color-primario);
+}
+
 .footer__copyright{
     margin-top: 2rem;
     padding-top: 2rem;
@@ -478,6 +502,20 @@ button {
 
 .footer_copyright-text{
     text-align: center;
+}
+
+.footer__email-link {
+    text-decoration: none; /* Elimina el subrayado */
+    color: inherit; /* Mantiene el color del texto del párrafo */
+}
+
+.footer__email-link:hover {
+    text-decoration: underline; /* Opcional: subrayado solo al pasar el mouse */
+    color: var(--color-primario);
+}
+
+.dimension{
+    color: var(--color-primario);
 }
 
 
@@ -619,4 +657,20 @@ button {
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+
+
+/* Ajustes específicos para la sección de Marketing de Contenidos */
+#marketing .cta__content {
+    border: 3px solid var(--color-primario); /* Borde con el color principal */
+    border-radius: 10px;
+    padding: 2rem; /* Ajuste de padding para mantener espacio alrededor del contenido */
+}
+
+#marketing .title {
+    margin-top: -20px; /* Ajusta el valor para mover el título hacia arriba */
+    border-bottom: 2px solid var(--color-primario); /* Opcional: Añadir una línea debajo del título */
+    display: inline-block;
+    padding-bottom: 10px;
 }
