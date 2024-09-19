@@ -576,6 +576,10 @@ button {
     .contact__figure{
         display: block;
     }
+
+    .dimension{
+        color: var(--color-primario);
+    }
 }
 
 
@@ -656,6 +660,10 @@ button {
         width: 90%;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .dimension{
+        color: var(--color-primario);
     }
 }
 
